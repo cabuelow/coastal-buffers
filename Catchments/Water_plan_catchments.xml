@@ -1,0 +1,783 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<MD_Metadata xmlns="http://www.isotc211.org/2005/gmd" xmlns:gco="http://www.isotc211.org/2005/gco" xmlns:gmd="http://www.isotc211.org/2005/gmd" xmlns:gml="http://www.opengis.net/gml" xmlns:xlink="http://www.w3.org/1999/xlink" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.isotc211.org/2005/gmd http://www.isotc211.org/2005/gmd/gmd.xsd      http://www.opengis.net/gml http://www.isotc211.org/2005/gml/gml.xsd      http://www.w3.org/1999/xlink http://www.isotc211.org/2005/xlink/xlinks.xsd">
+    <fileIdentifier>
+        <gco:CharacterString>{BED16BFC-F7F8-4187-8F9F-BBFF7DC0A885}</gco:CharacterString>
+    </fileIdentifier>
+    <language>
+        <gco:CharacterString>eng</gco:CharacterString>
+    </language>
+    <characterSet>
+        <MD_CharacterSetCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_CharacterSetCode" codeListValue="utf8"/>
+    </characterSet>
+    <parentIdentifier>
+        <gco:CharacterString>{425783F3-B2DD-405A-A037-1675F6AEA21F}</gco:CharacterString>
+    </parentIdentifier>
+    <hierarchyLevel>
+        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</MD_ScopeCode>
+    </hierarchyLevel>
+    
+    <contact>
+        <CI_ResponsibleParty id="metadataContact">
+            <organisationName>
+                <gco:CharacterString>Department of Natural Resources, Mines and Energy</gco:CharacterString>
+            </organisationName>
+            <positionName>
+                <gco:CharacterString>Senior Project Officer, Topographic Data Management</gco:CharacterString>
+            </positionName>
+            <contactInfo>
+                <CI_Contact>
+                    <phone>
+                        <CI_Telephone>
+                            <voice>
+                                <gco:CharacterString>+61733304745</gco:CharacterString>
+                            </voice>
+                        </CI_Telephone>
+                    </phone>
+                    <address>
+                        <CI_Address>
+                            <deliveryPoint>
+                                <gco:CharacterString>275 George Street</gco:CharacterString>
+                            </deliveryPoint>
+                            <city>
+                                <gco:CharacterString>Brisbane</gco:CharacterString>
+                            </city>
+                            <administrativeArea>
+                                <gco:CharacterString>Queensland</gco:CharacterString>
+                            </administrativeArea>
+                            <postalCode>
+                                <gco:CharacterString>4000</gco:CharacterString>
+                            </postalCode>
+                            <country>
+                                <gco:CharacterString>Australia</gco:CharacterString>
+                            </country>
+                            <electronicMailAddress>
+                                <gco:CharacterString>wmgis@dnrme.qld.gov.au</gco:CharacterString>
+                            </electronicMailAddress>
+                        </CI_Address>
+                    </address>
+                    
+                </CI_Contact>
+            </contactInfo>
+            <role>
+                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact">pointOfContact</CI_RoleCode>
+            </role>
+        </CI_ResponsibleParty>
+    </contact>
+    <dateStamp>
+        <gco:Date>2020-02-12</gco:Date>
+    </dateStamp>
+    <metadataStandardName>
+        <gco:CharacterString>ISO 19115:2005, ANZLIC ISO 1.1</gco:CharacterString>
+    </metadataStandardName>
+    <metadataStandardVersion>
+        <gco:CharacterString>QGIS</gco:CharacterString>
+    </metadataStandardVersion>
+    <referenceSystemInfo>
+        <MD_ReferenceSystem id="coordRefSystem">
+            <referenceSystemIdentifier>
+                <RS_Identifier>
+                    <authority>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>EPSG Geodetic Parameter
+                                Dataset</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date>
+                                        <gco:Date>2007-07-16</gco:Date>
+                                    </date>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="revision">revision </CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                            <edition>
+                                <gco:CharacterString>Version 6.13</gco:CharacterString>
+                            </edition>
+                        </CI_Citation>
+                    </authority>
+                    <code>
+                        <gco:CharacterString>EPSG:4283</gco:CharacterString>
+                    </code>
+                </RS_Identifier>
+            </referenceSystemIdentifier>
+        </MD_ReferenceSystem>
+    </referenceSystemInfo>
+    
+    
+    
+    <identificationInfo>
+        <MD_DataIdentification>
+            <citation>
+                <CI_Citation>
+                    <title>
+                        <gco:CharacterString>Water plan catchments - Queensland</gco:CharacterString>
+                    </title>
+                    <alternateTitle>
+                        <gco:CharacterString>Water plan catchments</gco:CharacterString>
+                    </alternateTitle>
+                    <date>
+                        <CI_Date>
+                            <date>
+                                <gco:Date>2020-02-12</gco:Date>
+                            </date>
+                            <dateType>
+                                <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication"/>
+                            </dateType>
+                        </CI_Date>
+                    </date>
+                    
+                    
+                    
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty id="resourceCustodian">
+                            <organisationName>
+                                <gco:CharacterString>Department of Natural Resources, Mines and Energy</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Executive Director, Operations Support, Natural Resources</gco:CharacterString>
+                            </positionName>
+                            <contactInfo>
+                                <CI_Contact>
+                                                                
+                                </CI_Contact>
+                            </contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="custodian">custodian</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty id="resourceOwner">
+                            <organisationName>
+                                <gco:CharacterString>Department of Natural Resources, Mines and Energy</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>Manager, Topographic Data Management, Topographic Data, Imagery and Mapping, Land and Spatial</gco:CharacterString>
+                            </positionName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="owner">owner</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    <citedResponsibleParty>
+                        <CI_ResponsibleParty id="otherCitContact1">
+                            <organisationName>
+                                <gco:CharacterString>Department of Natural Resources, Mines and Energy</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>QSpatial Support</gco:CharacterString>
+                            </positionName>
+							<contactInfo>
+								<CI_Contact>
+									<phone>
+										<CI_Telephone>
+											<voice>
+												<gco:CharacterString>(07) 3330 4442</gco:CharacterString>
+											</voice>
+										</CI_Telephone>
+									</phone>
+									<address>
+										<CI_Address>
+											<deliveryPoint>
+												<gco:CharacterString/>
+											</deliveryPoint>
+											<city>
+												<gco:CharacterString/>
+											</city>
+											<administrativeArea>
+												<gco:CharacterString/>
+											</administrativeArea>
+											<postalCode>
+												<gco:CharacterString/>
+											</postalCode>
+											<country>
+												<gco:CharacterString/>
+											</country>
+											<electronicMailAddress>
+												<gco:CharacterString>Discovery@dnrm.qld.gov.au</gco:CharacterString>
+											</electronicMailAddress>
+										</CI_Address>
+									</address>
+									
+								</CI_Contact>
+							</contactInfo>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </citedResponsibleParty>
+                    
+                    
+                    <presentationForm>
+                        <CI_PresentationFormCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_PresentationFormCode" codeListValue="mapDigital">mapDigital</CI_PresentationFormCode>
+                    </presentationForm>
+                    
+                </CI_Citation>
+            </citation>
+
+
+            <abstract>
+                <gco:CharacterString>A Water Plan area can be divided into smaller sections called Subcatchment and Catchments for administrative purposes. This dataset shows these features across Queensland.</gco:CharacterString>
+            </abstract>
+            <purpose>
+                <gco:CharacterString>Water management spatial datasets support the management of Queenslands water resources through the Water Act 2000. The main purposes of this Act is to provide a framework for the following -&#13;
+(a) The sustainable management of Queenslands water resources and quarry material by establishing a system for - &#13;
+  (i) the planning, allocation and use of water; and&#13;
+  (ii) the allocation of quarry material and riverine protection;&#13;
+(b) the sustainable and secure water supply and demand management for the south-east Queensland region and other designated regions;&#13;
+(c) the management of impacts on underground water caused by the exercise of undergrounds water rights by the resource sector;&#13;
+(d) the effective operation of water authorities</gco:CharacterString>
+            </purpose>
+            <status>
+                <MD_ProgressCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ProgressCode" codeListValue="completed">completed</MD_ProgressCode>
+            </status>
+            <pointOfContact>
+                <CI_ResponsibleParty>
+                    <organisationName>
+                        <gco:CharacterString>Department of Natural Resources, Mines and Energy</gco:CharacterString>
+                    </organisationName>
+                    <positionName>
+                        <gco:CharacterString>Senior Project Officer, Topographic Data Management</gco:CharacterString>
+                    </positionName>
+                    <contactInfo>
+                        <CI_Contact>
+                            <phone>
+                                <CI_Telephone>
+                                    <voice>
+                                        <gco:CharacterString>+61733304745</gco:CharacterString>
+                                    </voice>
+                                </CI_Telephone>
+                            </phone>
+                            <address>
+                                <CI_Address>
+                                    <deliveryPoint>
+                                        <gco:CharacterString>275 George Street</gco:CharacterString>
+                                    </deliveryPoint>
+                                    <city>
+                                        <gco:CharacterString>Brisbane</gco:CharacterString>
+                                    </city>
+                                    <administrativeArea>
+                                        <gco:CharacterString>Queensland</gco:CharacterString>
+                                    </administrativeArea>
+                                    <postalCode>
+                                        <gco:CharacterString>4000</gco:CharacterString>
+                                    </postalCode>
+                                    <country>
+                                        <gco:CharacterString>Australia</gco:CharacterString>
+                                    </country>
+                                    <electronicMailAddress>
+                                        <gco:CharacterString>wmgis@dnrme.qld.gov.au</gco:CharacterString>
+                                    </electronicMailAddress>
+                                </CI_Address>
+                            </address>
+                                                        
+                        </CI_Contact>
+                    </contactInfo>
+                    <role>
+                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="pointOfContact"/>
+                    </role>
+                </CI_ResponsibleParty>
+            </pointOfContact>
+            <resourceMaintenance>
+                <MD_MaintenanceInformation>
+                    <maintenanceAndUpdateFrequency>
+                        <MD_MaintenanceFrequencyCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_MaintenanceFrequencyCode" codeListValue="asNeeded"/>
+                    </maintenanceAndUpdateFrequency>
+                    
+                </MD_MaintenanceInformation>
+            </resourceMaintenance>
+            
+            <resourceFormat>
+                <MD_Format>
+                    <name>
+                        <gco:CharacterString>SHP, TAB, FGDB, KMZ, GPKG</gco:CharacterString>
+                    </name>
+                    <version>
+                        <gco:CharacterString>10.1</gco:CharacterString>
+                    </version>
+                </MD_Format>
+            </resourceFormat>
+            <descriptiveKeywords>
+                <MD_Keywords id="ThemeAnzlicThesaurus">
+                    <keyword>
+                        <gco:CharacterString>WATER</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER-Groundwater</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER-Hydrology</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER-Lakes</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER-Rivers</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER-Supply</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER-Surface</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>ANZLIC Search Words</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date gco:nilReason="unknown"/>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords id="ThemeOpenDataThesaurus">
+                    <keyword>
+                        <gco:CharacterString>Business and economic</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>Queensland Open Data Categories</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date gco:nilReason="unknown"/>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            <descriptiveKeywords>
+                <MD_Keywords id="ThemeOtherThesaurus">
+                    <keyword>
+                        <gco:CharacterString>WATER Surface Planning Management</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>WATER Groundwater Planning Management</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>water plan areas</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>subcatchments</gco:CharacterString>
+                    </keyword>
+<keyword>
+                        <gco:CharacterString>catchments</gco:CharacterString>
+                    </keyword>
+                    <type>
+                        <MD_KeywordTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_KeywordTypeCode" codeListValue="theme">theme</MD_KeywordTypeCode>
+                    </type>
+                    <thesaurusName>
+                        <CI_Citation>
+                            <title>
+                                <gco:CharacterString>Common name</gco:CharacterString>
+                            </title>
+                            <date>
+                                <CI_Date>
+                                    <date gco:nilReason="unknown"/>
+                                    <dateType>
+                                        <CI_DateTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_DateTypeCode" codeListValue="publication">publication</CI_DateTypeCode>
+                                    </dateType>
+                                </CI_Date>
+                            </date>
+                            <otherCitationDetails>
+                                <gco:CharacterString>Theme keywords input by metadata
+                                publisher</gco:CharacterString>
+                            </otherCitationDetails>
+                        </CI_Citation>
+                    </thesaurusName>
+                </MD_Keywords>
+            </descriptiveKeywords>
+            
+            <resourceConstraints>
+                <MD_SecurityConstraints>
+                    
+                    <classification>
+                        <MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified">unclassified</MD_ClassificationCode>
+                    </classification>
+                    <classificationSystem>
+                        <gco:CharacterString>Resource Access Level</gco:CharacterString>
+                    </classificationSystem>
+                </MD_SecurityConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>&amp;copy State of Queensland (Department of Natural Resources, Mines and Energy) 2020</gco:CharacterString>
+                    </useLimitation>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="copyright">copyright</MD_RestrictionCode>
+                    </useConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            <resourceConstraints>
+                <MD_LegalConstraints>
+                    <useLimitation>
+                        <gco:CharacterString>This material is licensed under a &lt;a rel="license" href="http://creativecommons.org/licenses/by/4.0/ "&gt;Creative Commons - Attribution 4.0 International&lt;/a&gt; licence.&lt;br /&gt; &lt;a rel="license" href="http://creativecommons.org/licenses/by/4.0/ "&gt;&lt;img alt="Creative Commons License" title="Creative Commons - Attribution 4.0 International License" style="border: 0;" src="https://licensebuttons.net/l/by/4.0/88x31.png " /&gt;&lt;/a&gt;&lt;br /&gt; The Department of Natural Resources, Mines and Energy requests attribution in the following manner:&lt;br /&gt; &amp;copy State of Queensland (Department of Natural Resources, Mines and Energy) 2020</gco:CharacterString>
+                    </useLimitation>
+                    <useConstraints>
+                        <MD_RestrictionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_RestrictionCode" codeListValue="license">license</MD_RestrictionCode>
+                    </useConstraints>
+                </MD_LegalConstraints>
+            </resourceConstraints>
+            
+            
+            
+            
+            <aggregationInfo>
+                <MD_AggregateInformation>
+                    <aggregateDataSetIdentifier>
+                        <MD_Identifier>
+                            <code>
+                                <gco:CharacterString>WTRMGT.QLD_WTRPLAN_CATCHMENTS</gco:CharacterString>
+                            </code>
+                        </MD_Identifier>
+                    </aggregateDataSetIdentifier>
+                    <associationType>
+                        <DS_AssociationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#DS_AssociationTypeCode" codeListValue="source">source</DS_AssociationTypeCode>
+                    </associationType>
+                </MD_AggregateInformation>
+            </aggregationInfo>
+            <spatialRepresentationType>
+                <MD_SpatialRepresentationTypeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_SpatialRepresentationTypeCode" codeListValue="vector">vector</MD_SpatialRepresentationTypeCode>
+            </spatialRepresentationType>
+            
+            <language>
+                <gco:CharacterString>eng</gco:CharacterString>
+            </language>
+            <characterSet gco:nilReason="unknown"/>
+            <topicCategory>
+                <MD_TopicCategoryCode>inlandWaters</MD_TopicCategoryCode>
+            </topicCategory>
+            <environmentDescription>
+                <gco:CharacterString>Spatial Information Resource</gco:CharacterString>
+            </environmentDescription>
+            <extent>
+                <EX_Extent>
+                    <geographicElement>
+                        <EX_GeographicBoundingBox>
+                            <westBoundLongitude>
+                                <gco:Decimal>138.000</gco:Decimal>
+                            </westBoundLongitude>
+                            <eastBoundLongitude>
+                                <gco:Decimal>155.000</gco:Decimal>
+                            </eastBoundLongitude>
+                            <southBoundLatitude>
+                                <gco:Decimal>-29.500</gco:Decimal>
+                            </southBoundLatitude>
+                            <northBoundLatitude>
+                                <gco:Decimal>-9.000</gco:Decimal>
+                            </northBoundLatitude>
+                        </EX_GeographicBoundingBox>
+                    </geographicElement>
+                    
+                    
+                    <temporalElement>
+                        <EX_TemporalExtent>
+                            <extent>
+                                <gml:TimePeriod frame="#ISO-8601" gml:id="timePeriod1">
+                                    <gml:beginPosition>2010-01-01</gml:beginPosition>
+                                    <gml:endPosition indeterminatePosition="now">2020-02-12</gml:endPosition>
+                                </gml:TimePeriod>
+                            </extent>
+                        </EX_TemporalExtent>
+                    </temporalElement>
+                </EX_Extent>
+            </extent>
+            <supplementalInformation>
+                <gco:CharacterString>Feature Types: &#13;
+Subcatchment Area - Part of a Water Plan Area or a Catchment Area within a Water Plan Area&#13;
+Catchment Area - Part of a Water Plan Area&#13;
+&#13;
+Attributes: &#13;
+FEATURE (Feature Type)  - Unique feature type that identifies the type of water feature (e.g. Subcatchment Area)&#13;
+TITLE (Title) - Name of the feature as defined in legislation&#13;
+ALT_TITLE (Alternate Title) - Alternate name of the feature (can be found in legislation or for mapping purposes)&#13;
+WATERPLAN (Water Plan) - The name of the corresponding Water Plan&#13;
+SUB_LEG (Subordinate Legislation) - Name of the subordinate legislation&#13;
+STATUS (Sub_Legislation Status) - The status of the subordinate legislation. Is the subordinate legislation Current (legislated) or Draft (proposed)&#13;
+SECTION (Sub_Legislation Section) - Section and description within the subordinate legislation&#13;
+LOC_DESC (Location Description) - A description which helps define the feature&#13;
+GEN_RES (Unallocated SW_General Res (ML) - The volume of the Unallocated Surface Water General Reserve, measured in megalitres&#13;
+STRAT_RES (Unallocated SW_Strategic Res (ML) - The volume of the Unallocated Surface Water Strategic Reserve, measured in megalitres&#13;
+SUNWTR_RES (Unallocated SW_Sunwater Res (ML) - The volume of the Unallocated Surface Water Sunwater Reserve, measured in megalitres&#13;
+STRAT_INFR (Unallocated SW_Strat Infra Res (ML) - The volume of the Unallocated Surface Water Strategic Infrastructure Reserve, measured in megalitres&#13;
+TOWN_RES (Unallocated SW_Twn Community (ML) - The volume of the Unallocated Surface Water Town Community Infrastructure Reserve, measured in megalitres&#13;
+INDIGENOUS (Unallocated SW_Indigenous Res (ML) - The volume of the Unallocated Surface Water Indigenous Reserve, measured in megalitres&#13;
+HFLOW_RES (Unallocated SW_High Flow Res (ML) - The volume of the Unallocated Surface Water High Flow Reserve, measured in megalitres&#13;
+RES_N_SPEC (Unallocated SW_Res Not Specified (ML) - The volume of the Unallocated Surface Water Reserve not specified, measured in megalitres&#13;
+UNALLOC_SW_CYPHA (Unallocated SW_CYPHA (ML)) - The volume of the Unallocated Surface Water, Cape York water plan, Cape York Peninsula Heritage Area (CYPHA), measured in megalitres. (Field added 12/2/20.)&#13;
+EXT_DATE (Volume Extraction Date) - The date the water volume data is extracted from departmental records&#13;
+PRODUCT (Product) - Description of the water trading product&#13;
+CONTACT (Contact) - The body to contact to arrange for water trading&#13;
+UN_WTR_DESC (Unallocated Water Description) - A further description as to the unallocated water reservation&#13;
+UN_WTR_WEB (Unallocated Water Website) - A URL link to the Unallocated Water Website &#13;
+WMGIS_ID (WMGIS_ID) - Unique ID of the feature as managed by the Water Management GIS team&#13;
+OFFICE (Office) - Location and phone number of the department office responsible for managing the water feature&#13;
+WEBSITE (Water Plan Website) - A URL link to the appropriate legislative website&#13;
+&#13;
+A Water Plan Area can be divided into smaller sections for administrative purposes. In some Water Plans these sections are called Subcatchment Areas, whilst in others they are called Catchment Areas. Some Catchment Areas have also been devided into Subcatchment Areas.&#13;
+&#13;
+To view the Water Act 2000, please see the following https://www.legislation.qld.gov.au/view/html/inforce/current/act-2000-034.&#13;
+To view the indivdual Water Plans legislation, please see the following: https://www.business.qld.gov.au/industries/mining-energy-water/water/catchments-planning/water-plan-areas.&#13;
+&#13;
+If required, more information should be obtained from the department where an area of interest is near to or crossing a boundary.</gco:CharacterString>
+            </supplementalInformation>
+        </MD_DataIdentification>
+    </identificationInfo>
+    <distributionInfo>
+        <MD_Distribution>
+            <distributionFormat>
+                <MD_Format id="DownloadService">
+                    <name>
+                        <gco:CharacterString>Queensland Spatial Catalogue</gco:CharacterString>
+                    </name>
+                    <version gco:nilReason="inapplicable"/>
+                    <specification>
+                        <gco:CharacterString>Download Service</gco:CharacterString>
+                    </specification>
+                    <formatDistributor>
+                        <MD_Distributor>
+                            <distributorContact>
+                                <CI_ResponsibleParty>
+                                    <organisationName>
+                                        <gco:CharacterString>Department of Natural Resources and Mines</gco:CharacterString>
+                                    </organisationName>
+                                    <role>
+                                        <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="resourceProvider">resourceProvider</CI_RoleCode>
+                                    </role>
+                                </CI_ResponsibleParty>
+                            </distributorContact>
+                            <distributionOrderProcess>
+                                <MD_StandardOrderProcess>
+                                    
+                                    <orderingInstructions>
+                                        <gco:CharacterString>Open the Queensland Spatial Catalogue (QSpatial). Select the large SEARCH button and all available records are displayed. Select one of the four filter options provided and then the further options within the filter. The resultant search is then displayed. Select your record and complete the order.</gco:CharacterString>
+                                    </orderingInstructions>
+                                </MD_StandardOrderProcess>
+                            </distributionOrderProcess>
+                            <distributorTransferOptions>
+                                <MD_DigitalTransferOptions>
+                                    <onLine>
+                                        <CI_OnlineResource id="dns1">
+                                            <linkage>
+                                                <URL>http://qldspatial.information.qld.gov.au/catalogue/</URL>
+                                            </linkage>
+                                        </CI_OnlineResource>
+                                    </onLine>
+                                </MD_DigitalTransferOptions>
+                            </distributorTransferOptions>
+                        </MD_Distributor>
+                    </formatDistributor>
+                </MD_Format>
+            </distributionFormat>
+            
+            
+            <distributionFormat>
+                <MD_Format id="GptBehaviour">
+                    <name>
+                        <gco:CharacterString>downloadableData</gco:CharacterString>
+                    </name>
+                    <version>
+                        <gco:CharacterString>10.0</gco:CharacterString>
+                    </version>
+                    <specification>
+                        <gco:CharacterString>ESRI ArcGIS Server Geoportal Extension Content Type</gco:CharacterString>
+                    </specification>
+                </MD_Format>
+            </distributionFormat>
+            <distributor>
+                <MD_Distributor id="distributorContact1">
+                    <distributorContact>
+                        <CI_ResponsibleParty>
+                            <organisationName>
+                                <gco:CharacterString>Department of Natural Resources, Mines and Energy</gco:CharacterString>
+                            </organisationName>
+                            <positionName>
+                                <gco:CharacterString>opendata@dnrme.qld.gov.au</gco:CharacterString>
+                            </positionName>
+                            <role>
+                                <CI_RoleCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_RoleCode" codeListValue="distributor">distributor</CI_RoleCode>
+                            </role>
+                        </CI_ResponsibleParty>
+                    </distributorContact>
+                    
+                    <distributorFormat>
+                        <MD_Format>
+                            <name>
+                                <gco:CharacterString>From the Queensland Spatial Catalogue available as ESRI Shape file SHP, MapInfo Tab file TAB, ESRI file geodatabase FGDB, Google file KMZ, and Geopackage version 1.0, 1.1, or 1.2 file GPKG</gco:CharacterString>
+                            </name>
+                            <version gco:nilReason="inapplicable"/>
+                        </MD_Format>
+                    </distributorFormat>
+                    <distributorTransferOptions>
+                        <MD_DigitalTransferOptions>
+                            <transferSize>
+                                <gco:Real>5</gco:Real>
+                            </transferSize>
+                            <onLine>
+                                <CI_OnlineResource>
+                                    <linkage>
+                                        <URL>http://qldspatial.information.qld.gov.au/catalogue/custom/search.page?q=%22Water plan catchments - Queensland%22</URL>
+                                    </linkage>
+                                </CI_OnlineResource>
+                            </onLine>
+                            
+                        </MD_DigitalTransferOptions>
+                    </distributorTransferOptions>
+                </MD_Distributor>
+            </distributor>
+            <transferOptions>
+                <MD_DigitalTransferOptions id="download">
+                    <onLine>
+                        <CI_OnlineResource>
+                            <linkage>
+                                <URL/>
+                            </linkage>
+                            <function>
+                                <CI_OnLineFunctionCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#CI_OnLineFunctionCode" codeListValue="download">download</CI_OnLineFunctionCode>
+                            </function>
+                        </CI_OnlineResource>
+                    </onLine>
+                </MD_DigitalTransferOptions>
+            </transferOptions>
+        </MD_Distribution>
+    </distributionInfo>
+    <dataQualityInfo>
+        <DQ_DataQuality>
+            <scope>
+                <DQ_Scope>
+                    <level>
+                        <MD_ScopeCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ScopeCode" codeListValue="dataset">dataset</MD_ScopeCode>
+                    </level>
+                    
+                </DQ_Scope>
+            </scope>
+            <report>
+                <DQ_CompletenessOmission>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>The majority of the data is complete with all data being subject to continual update.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_CompletenessOmission>
+            </report>
+            <report>
+                <DQ_ConceptualConsistency>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>Data should be free from overshoots, undershoot and duplicate lines.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_ConceptualConsistency>
+            </report>
+            <report>
+                <DQ_AbsoluteExternalPositionalAccuracy>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>Data has been collected and checked from many sources which have their own horizontal accuracy. The data therefore has a range of positional accuracies depending on the source of the feature.  In the case of orthophotos and satellite imagery the accuracy is within +/- 5 metres of actual position, whereas features compiled from DCDB data is related to the accuracy of the DCDB at the time of capture, and the accuracy of features captured from existing printed topographic maps is within +/- 12.5 metres of actual position.  In cases where data has been field verified the accuracy will be sub-metre.  While the data can be used for a range of purposes, generally the expected average horizontal accuracy is within +/- 12.5 metres of true position.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_AbsoluteExternalPositionalAccuracy>
+            </report>
+            <report>
+                <DQ_NonQuantitativeAttributeAccuracy>
+                    <result>
+                        <DQ_ConformanceResult>
+                            <specification gco:nilReason="missing"/>
+                            <explanation>
+                                <gco:CharacterString>Attribution is complete in many instances, however continual upgrading of attribution is continuing.</gco:CharacterString>
+                            </explanation>
+                            <pass gco:nilReason="inapplicable"/>
+                        </DQ_ConformanceResult>
+                    </result>
+                </DQ_NonQuantitativeAttributeAccuracy>
+            </report>
+            
+            
+            
+            
+            <lineage>
+                <LI_Lineage>
+                    <statement>
+                        <gco:CharacterString>In developing a Water Plan, the process generally includes the following stages:&#13;
+- technical assessments (environmental, economic, social, hydrologic and cultural data)&#13;
+- preliminary stakeholder consultation&#13;
+- preparation of a draft water plan&#13;
+- publication of draft plan and opportunity for public submissions&#13;
+- consideration of submissions&#13;
+- finalization and approval of water plan&#13;
+&#13;
+Science underpins the development of water plans. These technical assessments include:&#13;
+- environmental assessments: ecological modelling using data collected on the flow requirements of ecosystems&#13;
+- hydrologic assessments: models which draw on over 100 years of recorded flow data&#13;
+- social, economic and cultural assessments: identification of water related social, economic and cultural values.&#13;
+&#13;
+Consultation with a range of interested people including:&#13;
+- regional communities&#13;
+- Aboriginal and Torres Strait Islander groups&#13;
+- conservation groups&#13;
+- industry&#13;
+- local government.&#13;
+&#13;
+The available water can be granted through water licenses and tradeable water allocations.&#13;
+A certain amount of water is reserved as unallocated water.&#13;
+&#13;
+As part of the Water Plan development process, spatial datasets are created for use in the water plan, mapping and in public consultation.&#13;
+Water Services Officers across the state consult with Spatial Information Officers in the interpretation of the technical assessments and community consultation to compile these spatial datasets.&#13;
+In the first instance, a water plan area is the corresponding drainage basin with modifications as required to meet the needs of the plan.&#13;
+This may mean following cadastral boundaries rather than topological features.&#13;
+Mapping scale is generally 1:100,000 and enhanced in places with larger scale mapping (for example 1:25,000) and in places by visiting the location and ground truthing.</gco:CharacterString>
+                    </statement>
+                    
+                    
+                </LI_Lineage>
+            </lineage>
+        </DQ_DataQuality>
+    </dataQualityInfo>
+    <metadataConstraints>
+        <MD_SecurityConstraints>
+            <useLimitation>
+                <gco:CharacterString>Public</gco:CharacterString>
+            </useLimitation>
+            <classification>
+                <MD_ClassificationCode codeList="http://www.isotc211.org/2005/resources/Codelist/gmxCodelists.xml#MD_ClassificationCode" codeListValue="unclassified"/>
+            </classification>
+            <classificationSystem>
+                <gco:CharacterString>Metadata Access Level</gco:CharacterString>
+            </classificationSystem>
+        </MD_SecurityConstraints>
+    </metadataConstraints>
+</MD_Metadata>
