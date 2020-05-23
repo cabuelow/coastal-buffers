@@ -1,10 +1,8 @@
 
 library(sf)
 library(tmap)
-library(lwgeom)
 library(tidyverse)
 
-#catch <- st_read('Drainage Basins/drainage-basins.shp') %>% st_transform(crs = 4326)
 catch <- st_read('Catchments/QLD_Catchments_trans.gpkg')
 fnqld <- st_bbox(c(xmin = 141, xmax = 144, ymax = -10.5, ymin = -13), crs = st_crs(4326))
 qld <- st_crop(catch, fnqld) %>% st_transform(crs = 4283)
