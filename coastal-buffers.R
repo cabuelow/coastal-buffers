@@ -1,17 +1,21 @@
 
+# libraries
 library(sf)
 library(tmap)
 library(tidyverse)
 
+# data 
 catch <- st_read('Catchments/QLD_Catchments_trans.gpkg')
-fnqld <- st_bbox(c(xmin = 141, xmax = 144, ymax = -10.5, ymin = -13), crs = st_crs(4326))
-qld <- st_crop(catch, fnqld) %>% st_transform(crs = 4283)
+crop <- st_bbox(c(xmin = 141, xmax = 144, ymax = -10.5, ymin = -13), crs = st_crs(4326))
+fnqld <- st_crop(catch, crop) %>% st_transform(crs = 4283)
 
-qld.buff <- st_buffer(qld, dist = 0.1)
-qld.buff.dissolve <- st_union(st_buffer(qld, dist = 0.1))
-qld.buff.erase <- st_difference(qld.buff.dissolve, st_union(qld))
+# coastal buffers
+qld.buff <- st_difference(st_union(st_buffer(qld, dist = 0.1)))
+
+# catchment centroids
 centroid <- st_centroid(qld)
 
+# catchment voronoi polygons
 voronoi <- 
   centroid %>% 
   st_geometry() %>%
@@ -19,6 +23,7 @@ voronoi <-
   st_voronoi() %>%
   st_collection_extract()
 
+# plot
 m<-tm_shape(voronoi) +
   tm_polygons(col = 'beige') +
   tm_shape(qld) +
