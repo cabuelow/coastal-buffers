@@ -27,7 +27,6 @@ fnqld <- st_crop(basin, crop) %>% st_transform(crs = 3112)
 Remove island basins 
 ```{r buff}
 fnqld.noisle <- ms_filter_islands(fnqld, min_area = 310468000)
-plot(fnqld.noisle[1])
 ```
 
 Dissolve basins and buffer
