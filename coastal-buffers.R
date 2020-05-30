@@ -10,12 +10,10 @@ library(rmapshaper)
 basin <- st_read('Drainage Basins/drainage-basins.shp') %>% st_transform(crs = 4326)
 crop <- st_bbox(c(xmin = 141, xmax = 144, ymax = -10.5, ymin = -13), crs = st_crs(4326))
 fnqld <- st_crop(basin, crop) %>% st_transform(crs = 3112)
-plot(fnqld[1])
 
 # remove island basins
 
 fnqld.noisle <- ms_filter_islands(fnqld, min_area = 310468000)
-plot(fnqld.noisle[1])
 
 # dissolve basins and buffer
 
