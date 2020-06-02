@@ -23,23 +23,24 @@ buff <- st_buffer(fnqld.dissolve, dist = 10000)
 # make points along coastline
 
 points <- st_as_sf(fnqld.dissolve %>% st_cast('LINESTRING') %>% 
-  st_line_sample(n = 10000))
+                     st_line_sample(n = 10000))
 
 # create voronoi polygons of coastline points in buffer
 
 voronoi <- st_as_sf(st_intersection(st_cast(st_voronoi(points)), buff) %>% 
-                     st_cast('MULTIPOLYGON'))
+                      st_cast('MULTIPOLYGON'))
 
-# intersect voronoi polgyons with basins and dissolve by basin
+# intersect voronoi polgyons with coastal basin areas and dissolve by basin
 
-voronoi.basin <- st_join(voronoi, fnqld.noisle) %>% group_by(BASIN_NAME) %>% summarise()
+voronoi.basin <- st_join(voronoi, st_difference(fnqld.noisle, st_buffer(fnqld.dissolve, -1000))) %>% 
+  group_by(BASIN_NAME) %>% summarise()
 
 # mask voronoi basin buffers with land
 
 voronoi.basin.mask <- st_difference(voronoi.basin, fnqld.dissolve)
 
 # union basins with voronoi buffers in a loop
-  
+
 # empty spatial dataframe for storing results
 
 nrows <- nrow(fnqld.noisle)
@@ -52,7 +53,7 @@ attr(st_geometry(df), 'bbox') <- box
 for(i in 1:nrow(fnqld.noisle)) {
   basin <- fnqld.noisle[i,]
   inter <- st_union(basin, filter(voronoi.basin.mask, BASIN_NAME == paste0(as.character(fnqld.noisle[i,]$BASIN_NAME))))
-  inter.drop <- ms_filter_islands(inter, min_area = 50000000) %>% dplyr::select(BASIN_NAME, geometry) # drop polygon slivers
+  inter.drop <- inter %>% dplyr::select(BASIN_NAME, geometry)
   df[i,] <- inter.drop
   df[i,1] <- as.character(inter.drop$BASIN_NAME)
 }
