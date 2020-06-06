@@ -64,7 +64,7 @@ df <- st_cast(df, 'MULTIPOLYGON') %>% group_by(BASIN_NAME) %>% summarise()
 
 # write spatial dataframe as geopackage
 
-st_write(df, 'basins-buffer-qld.gpkg', overwrite=T, append= F)
+st_write(df, 'basins-buffer-qld.gpkg', overwrite = T, append = F)
 
 # plot
 
